@@ -29,3 +29,16 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 */
+s
+plugins {
+  id "org.sonarqube" version "4.4.1.3373"
+}
+
+sonar {
+  properties {
+    property "sonar.projectKey", "dluck93_practice_project_AYz-Lz7vaDMbCi8u2unj"
+    property "sonar.projectName", "Practice Project"
+    property "sonar.qualitygate.wait", true 
+  }
+}
+
